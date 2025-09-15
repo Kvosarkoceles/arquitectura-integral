@@ -12,6 +12,12 @@ export class Navbar {
   environment = environment;
 
    menuAbierto = false;
+   toggleMenu() {
+    console.log('Toggle menu called', this.menuAbierto);
+    this.menuAbierto = !this.menuAbierto;
+  }
+
+
   cerrarMenu() {
     this.menuAbierto = false;
   }

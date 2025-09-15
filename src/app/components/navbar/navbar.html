@@ -3,7 +3,7 @@
   <div class="logo-container">
     <img [src]="environment.baseUrl + '/assets/logo.png'" alt="" class="logo-img">
     <span class="logo-text">Arquitectura Integral</span>
-      <button class="menu-toggle" [class.open]="menuAbierto" aria-label="Abrir menú" (click)="menuAbierto = !menuAbierto">
+      <button class="menu-toggle" [class.open]="menuAbierto" aria-label="Abrir menú" (click)="toggleMenu()">
       <span>-</span>
       <span>-</span>
       <span>-</span>

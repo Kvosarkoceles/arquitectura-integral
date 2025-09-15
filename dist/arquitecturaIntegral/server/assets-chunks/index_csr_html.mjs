@@ -9,6 +9,6 @@ export default `<!doctype html>
 <style>body{margin:0;font-family:Arial,sans-serif;scroll-behavior:smooth}</style><link rel="stylesheet" href="styles-U3QAQT5S.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-U3QAQT5S.css"></noscript></head>
 <body ngcm="">
   <app-root></app-root>
-<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-GIUCHNZF.js" type="module"></script></body>
+<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-OE7OMEEP.js" type="module"></script></body>
 </html>
 `;
