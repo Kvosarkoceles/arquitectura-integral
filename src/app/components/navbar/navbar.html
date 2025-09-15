@@ -1,11 +1,26 @@
+
 <nav class="navbar">
- <img src="assets/logo.png" alt="Construcciones MX" class="logo-img">
-  <span class="logo-text">Arquitectrua Ingral</span>
-  <ul>
-    <li><a href="/">Inicio</a></li>
-    <li><a href="/servicios">Servicios</a></li>
-    <li><a href="/proyectos">Proyectos</a></li>
-    <li><a href="/nosotros">Nosotros</a></li>
-    <li><a href="/contacto">Contacto</a></li>
+  <div class="logo-container">
+    <img [src]="environment.baseUrl + '/assets/logo.png'" alt="" class="logo-img">
+    <span class="logo-text">Arquitectura Integral</span>
+      <button class="menu-toggle" [class.open]="menuAbierto" aria-label="Abrir menú" (click)="menuAbierto = !menuAbierto">
+      <span>-</span>
+      <span>-</span>
+      <span>-</span>
+    </button>
+  </div>
+  
+  <button class="menu-toggle" [class.open]="menuAbierto" aria-label="Abrir menú" (click)="menuAbierto = !menuAbierto">
+    <span></span>
+    <span></span>s
+    <span></span>
+  </button>
+
+  <ul class="nav-menu" [class.open]="menuAbierto">
+     <li><a [href]="environment.baseUrl + '/'">Inicio</a></li>
+    <li><a [href]="environment.baseUrl + '/servicios'">Servicios</a></li>
+    <li><a [href]="environment.baseUrl + '/proyectos'">Proyectos</a></li>
+    <li><a [href]="environment.baseUrl + '/nosotros'">Nosotros</a></li>
+    <li><a [href]="environment.baseUrl + '/contacto'">Contacto</a></li>
   </ul>
 </nav>

@@ -6,12 +6,13 @@ import { About } from './views/about/about';
 // import { Productos } from './views/productos/productos';
 import { Servicios } from './components/servicios/servicios';
 import { Proyectos } from './components/proyectos/proyectos';
+import { environment } from '../environments/environment';
 
 export const routes: Routes = [
   {
     path: '',
     component: HomeView,
-    title: 'Inicio - Home'
+    title: `Inicio | ${environment.baseUrl.includes('localhost') ? 'Home' : 'Arquitectura Moderna'}`
   },
   {
     path: 'servicios',

@@ -4,48 +4,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* ---------------- NAVBAR ---------------- */
-
-.navbar > img.logo-img {
-  width: 400px;
-  height: 60px; /* Altura fija si lo prefieres */
-  // object-fit: contain; /* Mantiene la proporción sin distorsión */
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #222;
-  color: #fff;
-  padding: 15px 30px;
-  flex-wrap: wrap;
-
-  .logo {
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-
-  ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-
-    li {
-      a {
-        color: white;
-        text-decoration: none;
-        transition: color 0.3s;
-
-        &:hover {
-          color: #ff9800;
-        }
-      }
-    }
-  }
-}
 
 /* ---------------- HERO ---------------- */
 .hero {
