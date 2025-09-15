@@ -1,9 +1,9 @@
 {
   "routes": {
     "/": {},
-    "/about": {},
     "/contacto": {},
-    "/home": {},
-    "/productos": {}
+    "/nosotros": {},
+    "/proyectos": {},
+    "/servicios": {}
   }
 }
