@@ -33,13 +33,13 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 696, hash: '02c516d91b7469229cdf35142ead41f27b7835fd66993de1fc40007abe9b055a', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1017, hash: 'ba6b9d9be0c44a5f73e6365dac4eb55f3e35c3964c8593b581b42d11fe6e0918', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'servicios/index.html': {size: 3008, hash: '02269440ac114fc24aa364c3aea560042826decdc7e6aee70e2b14c8ed0c3f07', text: () => import('./assets-chunks/servicios_index_html.mjs').then(m => m.default)},
-    'contacto/index.html': {size: 4320, hash: '2b7fb7b4ba550e150406ce10fb7e601c6ad39db8a3c5f95d42c9b654a492ff55', text: () => import('./assets-chunks/contacto_index_html.mjs').then(m => m.default)},
-    'index.html': {size: 4338, hash: '9ea810c9f50c7df7321c216620f1e431633ff1d5a4d7b5b0e92a7d98ceb1ab6b', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'nosotros/index.html': {size: 2217, hash: '0a915b793a4e036eb7d5f38622c3a9c0b41d0f2f896bcc6f65c7b2c35a1b0aa5', text: () => import('./assets-chunks/nosotros_index_html.mjs').then(m => m.default)},
-    'proyectos/index.html': {size: 2996, hash: 'a4cd51ea696946a74fd4d1627940555bd222691eff9dcbb54698714cf47b23ff', text: () => import('./assets-chunks/proyectos_index_html.mjs').then(m => m.default)},
-    'styles-PQZBT2RN.css': {size: 2113, hash: 'QF/afalrsqM', text: () => import('./assets-chunks/styles-PQZBT2RN_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 696, hash: '68900a31f3f8fddd98ed1161eef054a941c397af930bc3c26c55dc959090b7cb', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1017, hash: '75d5f679fca877eefdd9fa863ce49a8dd2ebd8507a17a3425c4af0f0b6a7d01a', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'nosotros/index.html': {size: 6333, hash: 'ac1dd0635a2c28f54f5484796c603cf98025beddbe86bf370dabce5149b58bfe', text: () => import('./assets-chunks/nosotros_index_html.mjs').then(m => m.default)},
+    'contacto/index.html': {size: 8436, hash: 'de0a6de3bb179cf67ef3ce00d07339067c92f76f37df1eda6e89db377b97147b', text: () => import('./assets-chunks/contacto_index_html.mjs').then(m => m.default)},
+    'index.html': {size: 8454, hash: '0ff745ba3ba79397a7b95702b3581cd8e8ab6189357f739a61a9079730ff7b81', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'proyectos/index.html': {size: 7112, hash: '3956aaf38cb2de955f972f70411dfcf0beba0ac09e0f95ea9b9f248ff6721f31', text: () => import('./assets-chunks/proyectos_index_html.mjs').then(m => m.default)},
+    'servicios/index.html': {size: 7124, hash: 'aa261b5b292e60d627cadc76ffe176557d51ae4d09ceabaeea9d687e1adc6ba2', text: () => import('./assets-chunks/servicios_index_html.mjs').then(m => m.default)},
+    'styles-U3QAQT5S.css': {size: 1718, hash: 'GNAW3qUyoqU', text: () => import('./assets-chunks/styles-U3QAQT5S_css.mjs').then(m => m.default)}
   },
 };
