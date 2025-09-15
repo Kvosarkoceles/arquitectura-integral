@@ -1,0 +1,25 @@
+/*
+  Variables globales para theming (modo claro/oscuro)
+  Usar en :root y sobrescribir con media queries o clases
+*/
+:root {
+  --color-bg: #f5f5f5;
+  --color-primary: #2d3a4a;
+  --color-accent: #eab308;
+  --color-text: #222;
+  --color-card: #fff;
+  --border-radius: 1rem;
+  --shadow: 0 4px 24px rgba(0,0,0,0.08);
+  --glass-bg: rgba(255,255,255,0.4);
+  --glass-blur: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #181a1b;
+    --color-primary: #eab308;
+    --color-accent: #2d3a4a;
+    --color-text: #eee;
+    --color-card: #23272f;
+    --glass-bg: rgba(32,32,32,0.4);
+  }
+}
