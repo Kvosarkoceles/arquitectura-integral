@@ -11,7 +11,7 @@ import { RouterModule } from '@angular/router';
 export class Navbar {
   environment = environment;
 
-   menuAbierto = true;
+   menuAbierto = false;
   cerrarMenu() {
     this.menuAbierto = false;
   }
